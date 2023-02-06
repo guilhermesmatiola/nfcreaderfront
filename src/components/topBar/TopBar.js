@@ -38,7 +38,7 @@ export default function TopBar() {
 						<div onClick={goToRanking}>Ranking</div>
 						<div onClick={logout}>Sair</div>
 					</Box>
-					<HelloBox>Seja bem-vindo(a), {userInformation.name}</HelloBox>
+					<HelloBox>Dias e horas</HelloBox>
 				</>
 			) : (
 				<Box>
